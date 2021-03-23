@@ -9,6 +9,7 @@ cat << EOF > $FILE_PATH
 본 커밋 메시지는 자동 메시지입니다.
 EOF
 cd /Users/jaewook/workspace/TIL
+/usr/bin/git pull
 /usr/bin/git add $FILE_PATH
 /usr/bin/git commit -m "$DATE_HEAD TIL"
 /usr/bin/git push
