@@ -12,4 +12,4 @@ cd /Users/jaewook/workspace/TIL
 /usr/bin/git pull
 /usr/bin/git add $FILE_PATH
 /usr/bin/git commit -m "$DATE_HEAD TIL"
-/usr/bin/git push
+/usr/bin/git push origin main
